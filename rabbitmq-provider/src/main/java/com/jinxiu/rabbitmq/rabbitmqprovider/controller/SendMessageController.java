@@ -10,11 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-/**
- * @Author : JCccc
- * @CreateTime : 2019/9/3
- * @Description :
- **/
 @RestController
 public class SendMessageController {
 
