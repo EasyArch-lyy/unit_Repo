@@ -1,4 +1,4 @@
-package com.jinxiu.rabbitmq.rabbitmqprovider.config;
+package com.jinxiu.rabbitmq.rabbitmqconsumer.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -40,9 +40,6 @@ public class DirectRabbitConfig {
 
 
 
-    /**
-     * 新增一个直连交换机，没做任何绑定配置操作：
-     */
     @Bean
     DirectExchange lonelyDirectExchange() {
         return new DirectExchange("lonelyDirectExchange");
